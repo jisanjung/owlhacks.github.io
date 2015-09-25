@@ -1,0 +1,118 @@
+@import 'base';
+
+.splash__overlay {
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.splash__image-fb--not-ready { display: none; }
+.splash__image-fb--ready {
+    display: block;
+    z-index: -4;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.splash__video--not-supported { display: none; }
+.splash__video--supported {
+    display: block;
+    z-index: -3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.splash__side-bar {
+    position: relative;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    width: 50%;
+    height: 100%;
+}
+
+.splash__header {
+    @extend .section__header;
+    width: 100%;
+    font-size: 5.5rem;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #8C7860;
+}
+
+.splash__header--punny {
+    display: inline-block;
+    height: 6.9rem;
+    border-width: 0px 0px 1.5px 0px;
+    border-bottom-style: solid;
+    border-image: linear-gradient(to right, #8C7860 70%, rgba(140, 120, 96, .8) 75%, rgba(140, 120, 96, .7) 85%, rgba(140, 120, 96, .4) 95%, rgba(140, 120, 96, .1) 5%);
+    border-image-slice: 1;
+}
+
+.splash__buttons-container {
+    text-align: center;
+    margin: 1rem 0 2rem;
+}
+
+.splash__buttons-container div:first-of-type {
+    margin-right: 25px;
+}
+
+.splash__button {
+    position: relative;
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 0 10px;
+    height: 4.3rem;
+    width: 14rem;
+    font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 2px;
+    background-color: #0C0E13;
+    color: #8C7860;
+    cursor: pointer;
+    transition: color .2s;
+
+    a:link, a:visited, a:hover, a:active {
+        text-decoration: none;
+        color: #8C7860;
+    }
+}
+
+.splash__button:after {
+    position: absolute;
+    top: -3px;
+    bottom: -3px;
+    left: -3px;
+    right: -3px;
+    z-index: -1;
+    background: #8C7860 ;
+    content: '';
+    transition: background .2s;
+}
+
+.splash__button:hover:after, .splash__button:focus:after {
+    background: lighten(#8C7860, 15%);
+}
+
+.splash__button:hover, .splash__button:focus {
+    color: lighten(#8C7860, 15%);
+}
+
+.splash__scroll-button-container {
+    width: 100%;
+    text-align: center;
+}

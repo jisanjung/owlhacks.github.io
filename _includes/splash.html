@@ -1,0 +1,18 @@
+<section id="js-splash" class="section">
+    <img id="js-splash-image-fb" class="splash__image-fb--not-ready" src="{% asset_path owl-background.png %}" alt="An Owl.">
+    <video id="js-splash-video" class="splash__video--not-supported" autoplay preload="none" autobuffer muted>
+        <source src="{% asset_path owl-background.webm %}" type="video/webm">
+        <source src="{% asset_path owl-background.mp4 %}" type="video/mp4">
+    </video> <!-- end #js-splash-video -->
+    <div class="splash__overlay"></div>
+    <section class="splash__side-bar">
+        <h1 class="splash__header">Loc<span class="splash__header--punny">owl</span> Hack Day</h1>
+        <section class="splash__buttons-container">
+            <div class="splash__button"><a href="https://localhackday.mlh.io/" target="_blank">Attend</a></div>
+            <div class="splash__button"><a href="https://tudev.typeform.com/to/QGuD9J" target="_blank">Sponsor</a></div>
+        </section> <!-- end .splash buttons container -->
+        <section class="splash__scroll-button-container">
+            <div class="section__scroll-button" onclick="scroll('js-splash')"><i class="fa fa-angle-down"></i></div>
+        </section> <!-- end .section scroll button container -->
+    </section> <!-- end .splash__side-bar -->
+</section> <!-- end .splash -->

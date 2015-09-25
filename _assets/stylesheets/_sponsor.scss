@@ -1,0 +1,31 @@
+@import 'base';
+
+.sponsor {
+    height: calc(100vh - #{$footer-height});
+    background-color: #e4e4e4;
+}
+
+#sponsor__header {
+    @extend .section__header;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #444444;
+}
+
+.sponsors__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor__container {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

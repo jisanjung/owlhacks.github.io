@@ -1,0 +1,27 @@
+# Site settings
+title: LocOWL Hack Day
+email: tudev@temple.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://locowlhackday.com" # the base hostname & protocol for your site
+twitter_username: owlhacks
+github_username:  owlhacks
+
+# Build settings
+markdown: kramdown
+
+# Assets Pipeline
+assets:
+  sources:
+    - _assets
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
+    - _assets/videos
+  compress:
+    css:  sass
+    js:   uglifier

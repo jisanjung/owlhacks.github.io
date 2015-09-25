@@ -1,0 +1,83 @@
+ $footer-height: 50px;
+
+ @font-face {
+    font-family: 'Aleo-Light';
+    src: url(asset_path('Aleo-Light-webfont.eot'));
+    src: url(asset_path('Aleo-Light-webfont.eot?iefix')) format('eot'),
+         url(asset_path('Aleo-Light-webfont.woff')) format('woff'),
+         url(asset_path('Aleo-Light-webfont.ttf')) format('truetype'),
+         url(asset_path('Aleo-Light-webfont.svg#webfont')) format('svg');
+ }
+
+html, body { width: 100%; }
+
+html {
+    @media screen and (max-width: 1400px) { font-size: 65%; }
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Rokkit", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #111;
+    background-color: #000011;
+    -webkit-text-size-adjust: 100%;
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+}
+
+.section__header {
+    font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.section__scroll-button-container {
+    z-index: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.section__scroll-button {
+    position: relative;
+    display: inline-block;
+    border: 1px solid transparent;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #0C0E13;
+    cursor: pointer;
+}
+
+.section__scroll-button:after {
+    position: absolute;
+    top: -3px;
+    bottom: -3px;
+    left: -3px;
+    right: -3px;
+    background: linear-gradient(to right, #8C7860 40%, rgba(140, 120, 96, .8) 59%, rgba(140, 120, 96, .7) 72%, rgba(140, 120, 96, .6) 79%, rgba(140, 120, 96, .5) 87%, rgba(140, 120, 96, .2) 93%), rgba(140, 120, 96, .1) 100%;
+    content: '';
+    z-index: -1;
+    border-radius: 50%;
+    transition: transform 250s;
+}
+
+.section__scroll-button:hover:after {
+    transform: rotateZ(200000deg);
+}
+
+.fa.fa-angle-down {
+    margin-top: 1px;
+    font-size: 50px;
+    color: #8C7860;
+}
+
+.section__footer {
+    height:  $footer-height;
+    background-color: black;
+}
