@@ -102,7 +102,7 @@
       <br />
       <br />Please contact
       <b
-        ><a class="redtext" href="mailto:mcginnr@temple.edu"
+        ><a class="text-red" href="mailto:mcginnr@temple.edu"
           >mcginnr@temple.edu</a
         ></b
       >

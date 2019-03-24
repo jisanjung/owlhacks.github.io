@@ -18,15 +18,15 @@
       </tr>
       <tr>
         <td>Mentors at Event</td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
       </tr>
       <tr>
         <td>Reserved Sponsor Table</td>
-        <td class="greentext">Half Event</td>
-        <td class="greentext">Full Event</td>
-        <td class="greentext">Full Event</td>
+        <td class="text-green">Half Event</td>
+        <td class="text-green">Full Event</td>
+        <td class="text-green">Full Event</td>
       </tr>
       <tr>
         <td>API Demo</td>
@@ -37,8 +37,8 @@
       <tr>
         <td>Tech Talk During Event</td>
         <td>-</td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
       </tr>
       <tr>
         <td>Keynote at Beginning of Event</td>
@@ -51,27 +51,27 @@
       </tr>
       <tr>
         <td>Material Distribution</td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
       </tr>
       <tr>
         <td>Large Banners Allowed</td>
         <td>-</td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
       </tr>
       <tr>
         <td>Résumé Book of Attendees</td>
         <td>-</td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
       </tr>
       <tr>
         <td>Personal On-Site Interviews</td>
         <td>-</td>
         <td>-</td>
-        <td class="greentext">Yes</td>
+        <td class="text-green">Yes</td>
       </tr>
       <tr>
         <td colspan="4" class="tbl-break">BRANDING</td>
@@ -79,46 +79,46 @@
       <tr>
         <td>
           Logo on
-          <a class="redtext" href="https://owlhacks.com">owlhacks.com</a>
+          <a class="text-red" href="https://owlhacks.com">owlhacks.com</a>
         </td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
       </tr>
       <tr>
         <td>Branded Prize</td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
       </tr>
       <tr>
         <td>
           Public Mention &amp; Thank You at Kickoff and Award Ceremony
         </td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
       </tr>
       <tr>
         <td>"OwlHacks, co-hosted by [You]"</td>
         <td>-</td>
         <td>-</td>
-        <td class="greentext">Yes</td>
+        <td class="text-green">Yes</td>
       </tr>
       <tr>
         <td colspan="4" class="tbl-break">SWAG</td>
       </tr>
       <tr>
         <td>Can Provide Swag</td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
-        <td class="greentext">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
+        <td class="text-green">Yes</td>
       </tr>
     </table>
   </div>
 </template>
 
-<style>
+<style scoped>
 .sponsor-table {
   margin-bottom: 30px;
   overflow-x: auto;
@@ -146,7 +146,7 @@ td:first-child {
   color: white;
   text-align: center !important;
 }
-.greentext {
+.text-green {
   color: #00c853;
 }
 </style>

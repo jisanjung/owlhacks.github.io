@@ -1,10 +1,6 @@
 <template>
   <section class="jumbo">
-    <div class="video-container">
-      <video id="video">
-        <source src="/Phillytest2" type="video/mp4" />
-      </video>
-    </div>
+    <Video />
     <div class="container text-light">
       <div class="row py-5">
         <div class="col-xl-7 my-3">
@@ -23,19 +19,27 @@
           </p>
           <p>
             <a
+              id="register-btn"
               class="btn btn-red btn-lg"
               href="https://goo.gl/forms/iode42v8iq3S7qqI3"
               target="__blank"
               role="button"
               >Register</a
             >
-          </p>
-          <p>
             <nuxt-link
               class="btn btn-red btn-lg"
               role="button"
               to="sponsorshipGuide"
               >Sponsorship Guide</nuxt-link
+            >
+          </p>
+          <p>
+            <a
+              class="btn btn-red btn-lg"
+              href="https://join.slack.com/t/templeowlhacks/shared_invite/enQtNTc3NDY0MDkwNzUzLThlMzZjMjVjY2E5YjNkMGMwYmMxZTM5Y2NhNGEwZDY1NzMwNDc2ZTM4NWVhMTM1ZTNlY2I4OTljYzJhMGE3N2I"
+              target="__blank"
+              role="button"
+              >Join our Slack!</a
             >
           </p>
           <p class="my-0">
@@ -46,7 +50,7 @@
             Interested in sponsoring? Please email
             <a href="mailto:mcginnr@temple.edu">mcginnr@temple.edu</a>
           </p>
-          <p>Organized by Temple ACM / Temple ACM-W / TUDev</p>
+          <p>Organized by Temple ACM / Temple ACM-W / TUDev / IEEE</p>
         </div>
         <div class="col-xl-5">
           <img
@@ -65,10 +69,12 @@
 </template>
 
 <script>
-import CountdownTimer from '~/components/CountdownTimer.vue'
+import Video from '~/components/index/Video.vue'
+import CountdownTimer from '~/components/index/CountdownTimer.vue'
 
 export default {
   components: {
+    Video,
     CountdownTimer
   },
   methods: {
@@ -82,6 +88,16 @@ export default {
 </script>
 
 <style>
+#register-btn {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 320px) {
+  #register-btn {
+    margin-bottom: 1rem;
+  }
+}
+
 .jumbo {
   text-align: center;
   background: #a41e35;
@@ -119,36 +135,5 @@ export default {
   .btn-red {
     background: #99132a;
   }
-}
-
-@media (max-width: 992px) {
-  .video-container {
-    display: none;
-  }
-}
-
-.video-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  opacity: 0.3;
-}
-.video-container video {
-  /* Make video to at least 100% wide and tall */
-  min-width: 100%;
-  min-height: 100%;
-
-  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-  width: auto;
-  height: auto;
-
-  /* Center the video */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 </style>

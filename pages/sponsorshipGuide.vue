@@ -24,8 +24,8 @@
 </template>
 
 <script>
-import SponsorInfo from '~/components/SponsorInfo.vue'
-import SponsorChart from '~/components/SponsorChart.vue'
+import SponsorInfo from '~/components/sponsorshipGuide/SponsorInfo.vue'
+import SponsorChart from '~/components/sponsorshipGuide/SponsorChart.vue'
 
 export default {
   components: {
@@ -68,8 +68,5 @@ export default {
   .sponsor-table {
     max-width: 65%;
   }
-}
-.redtext {
-  color: #a41e35;
 }
 </style>

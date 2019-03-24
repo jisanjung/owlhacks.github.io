@@ -76,6 +76,10 @@ a:focus {
   text-decoration: none;
 }
 
+.text-red {
+  color: #a41e35;
+}
+
 .bg-black {
   background: #202020;
 }
@@ -86,6 +90,7 @@ a:focus {
 }
 .btn-red:hover {
   color: #fff;
+  background: #99132a;
 }
 
 .navbar-brand {
