@@ -3,13 +3,21 @@
     <MainJumbotron />
     <div class="bg-light">
       <SponsorLogos />
-      <div class="container py-3">
+      <div class="container py-3" style="margin-bottom: .5rem">
         <b-card no-body>
           <b-tabs pills card>
             <b-tab id="schedule" title="Schedule" active><Schedule /></b-tab>
-            <b-tab id="faq" title="FAQ"><FAQ /></b-tab>
+            <b-tab id="faq-tab" title="FAQ"><FAQ /></b-tab>
           </b-tabs>
         </b-card>
+      </div>
+      <div class="text-center bg-dark text-light py-2 footer">
+        Interested in sponsoring? Please email
+        <a href="mailto:mcginnr@temple.edu">mcginnr@temple.edu</a><br />
+        <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+          >MLH Code of Conduct</a
+        ><br />
+        Remade by <a href="https://github.com/HanaXu">Hana</a>
       </div>
     </div>
   </div>
@@ -37,35 +45,36 @@ export default {
   margin-bottom: 0.5rem;
 }
 .card-header {
-  background-color: #303030;
+  background-color: #202020;
   padding: 0.5rem 1.2rem;
-}
-.card-text a {
-  color: #44aaff;
-}
-.card-text a:hover,
-.card-text a:focus {
-  color: #a41e35;
 }
 #schedule {
   padding: 0rem 1rem;
 }
-#faq {
+#faq-tab {
   padding: 1rem;
 }
 .card-body:active,
 .card-body:focus {
   outline: none;
 }
+.nav-link {
+  padding: 0.45rem 0.8rem;
+}
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: rgba(255, 255, 255, 0.75);
-  background-color: #394c6d;
+  background-color: #363636;
 }
 .nav-pills a {
   color: hsla(0, 0%, 100%, 0.5);
+  font-size: 17px;
+  letter-spacing: 0.7px;
 }
 .nav-pills a:hover {
   color: rgba(255, 255, 255, 0.75);
+}
+.footer a:hover {
+  text-decoration: underline;
 }
 </style>

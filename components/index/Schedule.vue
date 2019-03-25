@@ -18,6 +18,7 @@
           <td>
             Main Entrance
           </td>
+          <td></td>
         </tr>
         <tr>
           <th scope="row">8:00 AM</th>
@@ -27,6 +28,7 @@
           <td>
             SERC 110 (outside)
           </td>
+          <td></td>
         </tr>
         <tr>
           <th scope="row">9:00 AM</th>
@@ -37,7 +39,7 @@
         <tr>
           <th scope="row">10:00 AM</th>
           <td>Team Formation</td>
-          <td>SERC 108A</td>
+          <td>SERC 2nd Floor Lounge</td>
           <td>OwlHacks Team</td>
         </tr>
         <tr>
@@ -49,7 +51,7 @@
         <tr>
           <th scope="row">11:00 AM</th>
           <td>Surviving Your First Hackathon</td>
-          <td>SERC 2nd Floor Lounge</td>
+          <td>SERC 110</td>
           <td>Jake Lawrence</td>
         </tr>
         <tr>
@@ -66,6 +68,7 @@
           <td>
             SERC 110 (outside)
           </td>
+          <td></td>
         </tr>
         <tr>
           <th scope="row">1:00 PM</th>
@@ -74,16 +77,16 @@
           <td>Cigna</td>
         </tr>
         <tr>
-          <th scope="row">1:00 PM</th>
-          <td>Game Development Workshop</td>
-          <td>SERC 110</td>
-          <td>Armond Smith</td>
-        </tr>
-        <tr>
           <th scope="row">2:00 PM</th>
           <td>Security Talk</td>
           <td>SERC 108B</td>
           <td>Shianling Wu</td>
+        </tr>
+        <tr>
+          <th scope="row">2:00 PM</th>
+          <td>Game Development Workshop</td>
+          <td>SERC 110</td>
+          <td>Armond Smith</td>
         </tr>
         <tr>
           <th scope="row">3:00 PM</th>
@@ -113,6 +116,7 @@
           <th scope="row">6:00 PM</th>
           <td>Dinner</td>
           <td>SERC 110 (outside)</td>
+          <td></td>
         </tr>
         <tr>
           <th scope="row">7:00 PM</th>

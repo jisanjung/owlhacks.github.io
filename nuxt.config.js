@@ -26,6 +26,24 @@ export default {
     ]
   },
 
+  /* scroll to anchor. only works if on same page */
+  /*
+  router: {
+    scrollBehavior (to, from, savedPosition) {
+      if (to.hash) {
+        console.log(1)
+              return { selector: to.hash }
+          } else if (savedPosition) {
+            console.log(2)
+              return savedPosition;
+          } else {
+            console.log(3)
+              return { x: 0, y: 0 }
+          }
+    }
+  },
+  */
+
   /*
    ** Customize the progress-bar color
    */

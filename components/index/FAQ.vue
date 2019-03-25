@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="faq">
     <div class="row">
       <div class="col-lg-6">
         <b-card title="I am not good at coding, should I come?">
@@ -13,13 +13,12 @@
       <div class="col-lg-6">
         <b-card title="What if I have never been to a hackathon before?">
           <b-card-text>
-            OwlHacks is beginner friendly! We will also be holding a “Surviving
+            OwlHacks is beginner friendly! And we will be holding a “Surviving
             your first Hackathon” workshop.
           </b-card-text>
         </b-card>
       </div>
     </div>
-
     <div class="row">
       <div class="col-lg-6">
         <b-card title="Do I need a team?">
@@ -32,12 +31,11 @@
       <div class="col-lg-6">
         <b-card title="Do I have to make or demo something?">
           <b-card-text>
-            No, you can just go to workshops, do your homework, etc!
+            Nope!
           </b-card-text>
         </b-card>
       </div>
     </div>
-
     <div class="row">
       <div class="col-lg-6">
         <b-card title="What do I bring?">
@@ -58,14 +56,13 @@
         </b-card>
       </div>
     </div>
-
     <div class="row">
       <div class="col-lg-6">
         <b-card title="How do I get to OwlHacks?">
           <b-card-text>
-            OwlHacks is being hosted in
+            OwlHacks is being hosted in SERC, at
             <a href="https://goo.gl/maps/YnJN7i4jKjp" target="__blank">
-              SERC, at 1925 N 12th St, Philadelphia, PA 19122.
+              1925 N 12th St, Philadelphia, PA 19122.
             </a>
           </b-card-text>
           <b-card-text
@@ -91,11 +88,23 @@
         </b-card>
       </div>
     </div>
+    Got more questions? Please contact
+    <a href="mailto:tudev@temple.edu">tudev@temple.edu</a>
   </div>
 </template>
 
-<style>
+<style scoped>
 .card {
   margin-bottom: 1rem;
+}
+h4 {
+  font-size: 1.3rem;
+}
+#faq a {
+  color: #44aaff;
+}
+#faq a:hover,
+#faq a:focus {
+  color: #a41e35;
 }
 </style>

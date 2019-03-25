@@ -18,18 +18,18 @@
         </h4>
       </div>
     </div>
-    <SponsorInfo />
+    <SponsorPitch />
     <SponsorChart />
   </div>
 </template>
 
 <script>
-import SponsorInfo from '~/components/sponsorshipGuide/SponsorInfo.vue'
+import SponsorPitch from '~/components/sponsorshipGuide/SponsorPitch.vue'
 import SponsorChart from '~/components/sponsorshipGuide/SponsorChart.vue'
 
 export default {
   components: {
-    SponsorInfo,
+    SponsorPitch,
     SponsorChart
   },
   head() {

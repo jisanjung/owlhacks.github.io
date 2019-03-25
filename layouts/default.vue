@@ -16,17 +16,15 @@
         <b-collapse id="nav_collapse" is-nav>
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
-            <b-navbar-nav align="end">
+            <b-navbar-nav>
               <b-nav-item
                 href="https://goo.gl/forms/iode42v8iq3S7qqI3"
                 target="_blank"
                 >Register</b-nav-item
               >
-              <b-nav-item>
-                <nuxt-link class="text-grey" to="sponsorshipGuide"
-                  >Sponsorship Guide</nuxt-link
-                >
-              </b-nav-item>
+              <nuxt-link class="text-grey nav-link" to="sponsorshipGuide"
+                >Sponsorship Guide</nuxt-link
+              >
             </b-navbar-nav>
           </b-navbar-nav>
         </b-collapse>

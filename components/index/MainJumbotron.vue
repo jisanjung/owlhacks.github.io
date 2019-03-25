@@ -3,62 +3,48 @@
     <Video />
     <div class="container text-light">
       <div class="row py-5">
-        <div class="col-xl-7 my-3">
+        <div class="col-xl-7 my-4">
           <h1 class="display-4">OwlHacks</h1>
-          <p style="font-size: 24px;">Temple University's 12 Hour Hackathon</p>
-          <p>
-            <b>Who:</b> College students with a passion for technology
+          <p style="font-size: 1.5rem">Temple University's 12 Hour Hackathon</p>
+          <p class="my-0" style="font-size: 1.1rem">
+            Who: College students with a passion for technology
             <br />
-            <b>Where:</b>
+            Where:
             <a href="https://goo.gl/maps/YnJN7i4jKjp" target="__blank"
               >SERC Lobby - Temple University, Philadelphia, PA</a
             >
             <br />
-            <b>When:</b> Saturday, March 30th, 2019 from 8AM - 10PM
+            When: Saturday, March 30th, 2019 from 8AM - 10PM
             <br />
           </p>
-          <p>
-            <a
-              id="register-btn"
-              class="btn btn-red btn-lg"
-              href="https://goo.gl/forms/iode42v8iq3S7qqI3"
-              target="__blank"
-              role="button"
-              >Register</a
-            >
-            <nuxt-link
-              class="btn btn-red btn-lg"
-              role="button"
-              to="sponsorshipGuide"
-              >Sponsorship Guide</nuxt-link
-            >
-          </p>
-          <p>
-            <a
-              style="margin-right: 0.5rem;"
-              class="btn btn-red btn-lg"
-              href="https://join.slack.com/t/templeowlhacks/shared_invite/enQtNTc3NDY0MDkwNzUzLThlMzZjMjVjY2E5YjNkMGMwYmMxZTM5Y2NhNGEwZDY1NzMwNDc2ZTM4NWVhMTM1ZTNlY2I4OTljYzJhMGE3N2I"
-              target="__blank"
-              role="button"
-              >Slack</a
-            >
-            <a
-              class="btn btn-red btn-lg"
-              href="https://owlhacks-2019.devpost.com/"
-              target="__blank"
-              role="button"
-              >Devpost</a
-            >
-          </p>
-          <p class="my-0">
-            Questions? Please contact
-            <a href="mailto:tudev@temple.edu">tudev@temple.edu</a>
-          </p>
-          <p style="margin-bottom: 2rem">
-            Interested in sponsoring? Please email
-            <a href="mailto:mcginnr@temple.edu">mcginnr@temple.edu</a>
-          </p>
-          <p>Organized by Temple ACM / Temple ACM-W / TUDev / IEEE</p>
+          <div class="row my-2">
+            <div class="col-lg-12">
+              <a
+                style="margin: 0.5rem 0rem;"
+                class="btn btn-red btn-lg"
+                href="https://goo.gl/forms/iode42v8iq3S7qqI3"
+                target="__blank"
+                role="button"
+                >Register</a
+              >
+              <a
+                style="margin: 0.5rem;"
+                class="btn btn-red btn-lg"
+                href="https://join.slack.com/t/templeowlhacks/shared_invite/enQtNTc3NDY0MDkwNzUzLThlMzZjMjVjY2E5YjNkMGMwYmMxZTM5Y2NhNGEwZDY1NzMwNDc2ZTM4NWVhMTM1ZTNlY2I4OTljYzJhMGE3N2I"
+                target="__blank"
+                role="button"
+                >Slack</a
+              >
+              <a
+                class="btn btn-red btn-lg"
+                href="https://owlhacks-2019.devpost.com/"
+                target="__blank"
+                role="button"
+                >Devpost</a
+              >
+            </div>
+          </div>
+          Organized by Temple ACM / Temple ACM-W / TUDev / IEEE
         </div>
         <div class="col-xl-5">
           <img
@@ -96,16 +82,6 @@ export default {
 </script>
 
 <style>
-#register-btn {
-  margin-right: 0.5rem;
-}
-
-@media (max-width: 320px) {
-  #register-btn {
-    margin-bottom: 1rem;
-  }
-}
-
 .jumbo {
   text-align: center;
   background: #a41e35;
