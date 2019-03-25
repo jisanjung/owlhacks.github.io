@@ -1,6 +1,6 @@
 <template>
   <div class="py-2 text-center">
-    <h2 class="text-red">Sponsors</h2>
+    <h2 class="text-red" style="font-size: 2.3rem">Sponsors</h2>
     <div class="logos-ctn">
       <h3 style="color: #99d1ff">Title</h3>
       <div class="col-xl-12">

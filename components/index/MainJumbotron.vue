@@ -35,11 +35,19 @@
           </p>
           <p>
             <a
+              style="margin-right: 0.5rem;"
               class="btn btn-red btn-lg"
               href="https://join.slack.com/t/templeowlhacks/shared_invite/enQtNTc3NDY0MDkwNzUzLThlMzZjMjVjY2E5YjNkMGMwYmMxZTM5Y2NhNGEwZDY1NzMwNDc2ZTM4NWVhMTM1ZTNlY2I4OTljYzJhMGE3N2I"
               target="__blank"
               role="button"
-              >Join our Slack!</a
+              >Slack</a
+            >
+            <a
+              class="btn btn-red btn-lg"
+              href="https://owlhacks-2019.devpost.com/"
+              target="__blank"
+              role="button"
+              >Devpost</a
             >
           </p>
           <p class="my-0">

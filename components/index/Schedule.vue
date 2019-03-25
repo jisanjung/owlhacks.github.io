@@ -1,6 +1,5 @@
 <template>
-  <div class="container py-5">
-    <h2 class="text-red">Schedule</h2>
+  <div style="overflow-x:auto;">
     <table class="table table-hover">
       <thead>
         <tr>
@@ -148,5 +147,8 @@
 .table td {
   padding: 0.6rem;
   border-bottom: 1px solid #dee2e6;
+}
+.table {
+  margin-bottom: 0;
 }
 </style>
