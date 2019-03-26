@@ -68,8 +68,8 @@ export default {
 }
 .nav-pills a {
   color: hsla(0, 0%, 100%, 0.5);
-  font-size: 17px;
-  letter-spacing: 0.7px;
+  font-size: 17.5px;
+  letter-spacing: 0.5px;
 }
 .nav-pills a:hover {
   color: rgba(255, 255, 255, 0.75);
