@@ -1,7 +1,8 @@
 <template>
   <div class="container sponsor-info bg-light">
     <h1
-      style="color: white; background-color: #444444; padding: 5px; margin-top: 15px;"
+      class="text-light"
+      style="background: #2a3952; padding: 5px; margin-top: 15px;"
       align="center"
     >
       OwlHacks
@@ -93,7 +94,7 @@
         <p>Provide workshops & seminars to students</p>
       </li>
     </ul>
-    <p>
+    <p style="padding-bottom: .8rem">
       Help us make OwlHacks an incredible experience for learning and invention.
       Our sponsorship packages, listed on the next page, outline our monetary
       contribution model. The higher your contribution, the more access you get

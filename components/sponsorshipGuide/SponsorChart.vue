@@ -1,5 +1,5 @@
 <template>
-  <div class="container sponsor-table">
+  <div class="container sponsor-table py-2">
     <table>
       <tr class="thead">
         <th class="tbl-desc thead"></th>

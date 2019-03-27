@@ -84,11 +84,11 @@ a:focus {
 
 .btn-red {
   color: #fff;
-  background-color: #a41e35;
+  background: rgba(164, 30, 53, 0.9);
 }
 .btn-red:hover {
   color: #fff;
-  background: #99132a;
+  background: #8c1026;
 }
 
 .navbar-brand {

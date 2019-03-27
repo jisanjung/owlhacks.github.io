@@ -3,20 +3,21 @@
     <Video />
     <div class="container text-light">
       <div class="row py-5">
-        <div class="col-xl-7" style="margin-top: 5%">
+        <div class="col-xl-6" style="margin-top: 5%">
           <h1 class="display-4">OwlHacks</h1>
-          <p style="font-size: 1.5rem">Temple University's 12 Hour Hackathon</p>
-          <p class="my-0" style="font-size: 1.1rem">
-            Who: College students with a passion for technology
-            <br />
-            Where:
-            <a href="https://goo.gl/maps/YnJN7i4jKjp" target="__blank"
-              >SERC Lobby - Temple University, Philadelphia, PA</a
-            >
-            <br />
-            When: Saturday, March 30th, 2019 from 8AM - 10PM
-            <br />
+          <p style="font-size: 1.5rem">
+            Temple University's 12 Hour Hackathon
           </p>
+          <div id="info">
+            <p><b>Who:</b> College students with a passion for technology</p>
+            <p>
+              <b>Where:</b>
+              <a href="https://goo.gl/maps/YnJN7i4jKjp" target="__blank"
+                >SERC Lobby - Temple University, Philadelphia, PA</a
+              >
+            </p>
+            <p><b>When:</b> Saturday, March 30th, 2019 from 8AM - 10PM</p>
+          </div>
           <div class="row my-2">
             <div class="col-lg-12">
               <a
@@ -46,7 +47,7 @@
           </div>
           Organized by Temple ACM / Temple ACM-W / TUDev / IEEE
         </div>
-        <div class="col-xl-5">
+        <div class="col-xl-5 offset-xl-1">
           <img
             id="owl"
             src="/owlhacks-logo.png"
@@ -82,9 +83,17 @@ export default {
 </script>
 
 <style>
+#info p {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 0.6rem;
+}
+
 .jumbo {
   text-align: center;
-  background: #a41e35;
+  background-image: linear-gradient(-45deg, #99132a, #003366);
+  /* background-image: linear-gradient(-45deg, #a41e35, #4b0082); */
   height: 100%;
   position: relative;
 }
@@ -106,7 +115,7 @@ export default {
 }
 
 #owl:hover {
-  filter: brightness(120%);
+  filter: brightness(115%);
   cursor: pointer;
 }
 
@@ -114,6 +123,7 @@ export default {
   #owl {
     max-width: 300px;
     max-height: 300px;
+    margin-top: 2%;
   }
 
   .btn-red {

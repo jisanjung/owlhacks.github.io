@@ -10,7 +10,9 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "deploy": "gh-pages -d dist -b master -m 'pushed dist'",
+    "deploy-help": "gh-pages --help"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",

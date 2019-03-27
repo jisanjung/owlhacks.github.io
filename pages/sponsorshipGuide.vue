@@ -8,11 +8,11 @@
           height="400"
           width="400"
         />
-        <h1 style="color: white;">OwlHacks Sponsorship</h1>
+        <h1 style="color: white; opacity: 0.9">OwlHacks Sponsorship</h1>
         <div
-          style="background-color: white; height: 1px; width: 50%; margin: 20px;"
+          style="background-color: white; height: 1px; width: 70%; margin: 20px;"
         ></div>
-        <h4 style="color: white;">
+        <h4 style="color: white; opacity: 0.9">
           Interested in sponsoring? Please email
           <a href="mailto:mcginnr@temple.edu">mcginnr@temple.edu</a>
         </h4>
@@ -52,7 +52,7 @@ export default {
 #sponsor-jumbo {
   padding-top: 5rem;
   padding-bottom: 6rem;
-  background-color: #a41e35;
+  background-color: #99132a;
   background-image: url(/pattern-red.svg);
 }
 @media (max-width: 992px) {

@@ -83,7 +83,8 @@ export default {
   flex-direction: column;
   margin: 0px 5px;
   padding: 5px 10px;
-  background: #a41e35;
+  /* background: #a41e35; */
+  background: rgba(164, 30, 53, 0.9);
   border-radius: 3px;
 }
 
