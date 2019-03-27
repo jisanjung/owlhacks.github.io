@@ -54,9 +54,16 @@ export default {
 #faq-tab {
   padding: 1rem;
 }
+.card-body {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
 .card-body:active,
 .card-body:focus {
   outline: none;
+}
+.nav-pills .nav-link {
+  border-radius: 0;
+  margin: 0rem 0.5rem;
 }
 .nav-link {
   padding: 0.45rem 0.8rem;
@@ -64,12 +71,14 @@ export default {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: rgba(255, 255, 255, 0.75);
-  background-color: #363636;
+  background-color: #202020;
+  border-bottom: 3px solid #a41e35;
 }
 .nav-pills a {
   color: hsla(0, 0%, 100%, 0.5);
   font-size: 17.5px;
   letter-spacing: 0.5px;
+  border-bottom: 3px solid #464343;
 }
 .nav-pills a:hover {
   color: rgba(255, 255, 255, 0.75);

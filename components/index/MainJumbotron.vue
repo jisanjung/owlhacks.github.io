@@ -3,7 +3,7 @@
     <Video />
     <div class="container text-light">
       <div class="row py-5">
-        <div class="col-xl-7" style="margin-top: 6%">
+        <div class="col-xl-7" style="margin-top: 5%">
           <h1 class="display-4">OwlHacks</h1>
           <p style="font-size: 1.5rem">Temple University's 12 Hour Hackathon</p>
           <p class="my-0" style="font-size: 1.1rem">
