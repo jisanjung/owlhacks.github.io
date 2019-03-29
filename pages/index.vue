@@ -75,19 +75,19 @@ export default {
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgb(255, 255, 255, 0.8);
   background-color: #202020;
   border-bottom: 3px solid #99132a;
   font-weight: 500;
 }
 .nav-pills a {
-  color: hsla(0, 0%, 100%, 0.5);
+  color: rgb(255, 255, 255, 0.6);
   font-size: 17.5px;
   letter-spacing: 0.5px;
-  border-bottom: 3px solid #464343;
+  border-bottom: 3px solid rgb(255, 255, 255, 0.4);
 }
 .nav-pills a:hover {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgb(255, 255, 255, 0.8);
 }
 .footer {
   background: #232323;

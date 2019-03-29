@@ -20,7 +20,7 @@
           </td>
           <td></td>
         </tr>
-        <tr>
+        <tr style="background: #a41e35; color: #fff">
           <th scope="row">8:00 AM</th>
           <td>
             Breakfast
@@ -44,6 +44,12 @@
         </tr>
         <tr>
           <th scope="row">10:00 AM</th>
+          <td>Real life Computer Threats w/ Live Demo</td>
+          <td>SERC 108A</td>
+          <td>IEEE</td>
+        </tr>
+        <tr>
+          <th scope="row">10:00 AM</th>
           <td>Resume Review</td>
           <td>SERC 108B</td>
           <td>OwlHacks Team</td>
@@ -60,7 +66,7 @@
           <td>SERC 2nd Floor Lounge</td>
           <td>Emily Trinh</td>
         </tr>
-        <tr>
+        <tr style="background: #a41e35; color: #fff">
           <th scope="row">12:00 PM</th>
           <td>
             Lunch
@@ -78,45 +84,69 @@
         </tr>
         <tr>
           <th scope="row">2:00 PM</th>
+          <td>Agile Development</td>
+          <td>SERC 108A</td>
+          <td>Prof. Spielberger</td>
+        </tr>
+        <tr>
+          <th scope="row">2:00 PM</th>
           <td>Security Talk</td>
           <td>SERC 108B</td>
           <td>Shianling Wu</td>
         </tr>
         <tr>
           <th scope="row">2:00 PM</th>
-          <td>Game Development Workshop</td>
+          <td>Game Dev Workshop Part 1</td>
           <td>SERC 110</td>
           <td>Armond Smith</td>
         </tr>
         <tr>
           <th scope="row">3:00 PM</th>
-          <td>Bootstrap 4 Demo</td>
-          <td>SERC 108A</td>
-          <td>Zachary Goncalves</td>
+          <td>Game Dev Workshop Part 2</td>
+          <td>SERC 110</td>
+          <td>Armond Smith</td>
+        </tr>
+        <tr>
+          <th scope="row">3:00 PM</th>
+          <td>Coding Interview Practice</td>
+          <td>SERC 2nd Floor</td>
+          <td>Sandra Liu</td>
         </tr>
         <tr>
           <th scope="row">4:00 PM</th>
+          <td>Bootstrap 4/UX Workshop</td>
+          <td>SERC 108A</td>
+          <td>Priyal Patel</td>
+        </tr>
+        <tr>
+          <th scope="row">4:00 PM</th>
+          <td>Firebase Workshop</td>
+          <td>SERC 108B</td>
+          <td>Brendan Manning</td>
+        </tr>
+        <tr>
+          <th scope="row">5:00 PM</th>
           <td>Smash Tournament</td>
           <td>SERC 110</td>
           <td>OwlHacks Team</td>
         </tr>
         <tr>
-          <th scope="row">4:00 PM</th>
+          <th scope="row">5:00 PM</th>
           <td>iOS Development</td>
-          <td>SERC 108B</td>
+          <td>SERC 108A</td>
           <td>Jared Stefanowicz</td>
         </tr>
-        <tr>
-          <th scope="row">5:00 PM</th>
-          <td>Coding Interview Practice</td>
-          <td>SERC 2nd Floor</td>
-          <td>Sandra</td>
-        </tr>
-        <tr>
+        <tr style="background: #a41e35; color: #fff">
           <th scope="row">6:00 PM</th>
           <td>Dinner</td>
           <td>SERC 110 (outside)</td>
           <td></td>
+        </tr>
+        <tr>
+          <th scope="row">7:00 PM</th>
+          <td>Smash Tournament</td>
+          <td>SERC 110</td>
+          <td>OwlHacks Team</td>
         </tr>
         <tr>
           <th scope="row">7:00 PM</th>
